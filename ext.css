@@ -1,0 +1,30 @@
+<style>
+ 
+header {
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+article {
+  width: 90%;
+  height: 400px; 
+}
+ body {
+  background-image: url('back.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+.nav{
+ text-align: left;
+ font-size: 20px;
+}
+.header {
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+</style>
