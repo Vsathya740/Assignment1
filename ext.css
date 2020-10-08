@@ -1,14 +1,8 @@
 <style>
  
-header {
-  text-align: center;
-  font-size: 30px;
-  color: black;
-}
-
 article {
-  width: 90%;
-  height: 400px; 
+  width: 100%;
+  height: 500px; 
 }
  body {
   background-image: url('back.png');
@@ -26,5 +20,17 @@ article {
   font-size: 30px;
   color: black;
 }
-
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+.search{
+  float: right;
+  margin: 0px 10px 10px 10px;
+}
+.head{
+  margin-left: 10px;
+}
 </style>
