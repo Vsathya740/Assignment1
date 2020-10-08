@@ -1,6 +1,6 @@
 <style>
  
-article {
+div{
   width: 100%;
   height: 500px; 
 }
@@ -11,7 +11,7 @@ article {
   background-attachment:fixed;
 }
 
-.nav{
+.navi{
  text-align: left;
  font-size: 20px;
 }
@@ -31,6 +31,17 @@ article {
   margin: 0px 10px 10px 10px;
 }
 .head{
-  margin-left: 10px;
+  margin: 5px 0px 0px 15px;
+  text-align: center;
+
+}
+.aligncenter {
+    text-align: center;
+}
+.font{
+  font-size: 21px;
+}
+.backg{
+  background-color: rgb(72,72,74);
 }
 </style>
