@@ -48,4 +48,8 @@ div{
 .divMar{
   margin: 10px 10px 10px 10px ;
 }
+.imgm{
+  max-width: 90%;
+  max-height: 90%;
+}
 </style>
