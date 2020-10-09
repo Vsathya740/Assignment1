@@ -26,15 +26,12 @@ div{
   margin-left: auto;
   margin-right: auto;
 }
-.search{
+#search{
   float: right;
-  
-
 }
 .head{
   margin: 5px 0px 0px 15px;
   text-align: center;
-
 }
 .aligncenter {
     text-align: center;
@@ -51,5 +48,13 @@ div{
 .imgm{
   max-width: 90%;
   max-height: 90%;
+}
+.but{
+  float: right;
+  position: relative;
+  padding: 5px;
+  font-size: 10px;
+  margin: 5px 0px 0px 0px;
+  margin-top: 13px;
 }
 </style>
