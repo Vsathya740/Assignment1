@@ -63,4 +63,11 @@ div{
 .login{
   float: right;
 }
+.video {
+  max-height: 90%;
+  max-width: 90%;
+}
+.submit{
+  margin: 0px 50px 15px 15px;
+}
 </style>
