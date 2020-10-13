@@ -7,7 +7,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
  <link rel="stylesheet" type="text/css" href="ext.css"/>
- <title> Rumors</title>
+ <title> Login</title>
     <style>
  body {
   background-image: url('newsback.jpg');
@@ -18,7 +18,7 @@
 }
 button { 
        background-color: #788686; 
-       width: 100%;
+       
         color: white; 
         padding: 15px; 
         margin: 10px 0px; 
@@ -26,15 +26,13 @@ button {
         cursor: pointer; 
          } 
  form { 
-        border: 3px solid #f1f1f1; 
+       float: left;
     } 
  input[type=text], input[type=password] { 
-        width: 100%; 
+        
         margin: 8px 0;
         padding: 12px 20px; 
         
-        border: 2px solid green; 
-        box-sizing: border-box; 
     }
 
 </style>
@@ -61,14 +59,14 @@ button {
        
 
        </nav>
-    <center> <h1> Login  </h1> </center> 
+     <h1 style="margin-left: 10px;" > Login  </h1> 
     <form>
         <div class="container"> 
             <label>Username : </label> 
-            <input type="text" placeholder="Enter Username" name="username" required>
+            <input type="text" placeholder="Enter Username" name="username" required><br>
             <label>Password : </label> 
-            <input type="password" placeholder="Enter Password" name="password" required>
-            <button type="submit">Login</button> 
+            <input type="password" placeholder="Enter Password" name="password" required style="margin-left: 4px;" ><br>
+            <button type="submit" style="margin-left: 130px;color: black; " >Login</button> <br>
             <input type="checkbox" checked="checked"> Remember me |
              
             Forgot <a href="#"> password? </a> 
